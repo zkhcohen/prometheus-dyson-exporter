@@ -2,6 +2,14 @@
 
 Inspired by [Prometheus PVE Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter) and [Dyson Graph](https://github.com/williampiv/dyson-graph), leveraging [Libdyson](https://github.com/shenxn/libdyson) for the API.
 
+---
+
+Github URL: https://github.com/zkhcohen/prometheus-dyson-exporter
+
+Docker Hub URL: https://hub.docker.com/r/zkhcohen/prometheus-dyson-exporter
+
+---
+
 ### Installation Instructions:
 1. Clone [Libdyson](https://github.com/shenxn/libdyson).
 2. Run [get_devices.py](https://github.com/shenxn/libdyson/blob/main/get_devices.py) on the CLI in order to print out credentials for your Dyson device.
