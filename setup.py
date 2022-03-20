@@ -13,7 +13,7 @@ setup(
     author='Zachary Cohen',
     author_email='zacharykhcohen@gmail.com',
     url='https://github.com/zkhcohen/prometheus-dyson-exporter',
-    download_url='https://github.com/zkhcohen/prometheus-dyson-exporter/archive/1.0.0.tar.gz',
+    download_url='https://github.com/zkhcohen/prometheus-dyson-exporter/archive/refs/tags/1.0.0.tar.gz',
     keywords=['prometheus', 'dyson'],
     classifiers=[],
     python_requires='>=3',
