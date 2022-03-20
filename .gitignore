@@ -1,3 +1,9 @@
+# Secrets
+devices.ini
+
+# Docker
+docker-compose.yml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

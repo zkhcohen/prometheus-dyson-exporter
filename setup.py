@@ -17,7 +17,11 @@ setup(
     keywords=['prometheus', 'dyson'],
     classifiers=[],
     python_requires='>=3',
-    install_requires=['libdyson>=0.8.9', 'prometheus-client>=0.13.1', 'python_json_logger>=2.0.2']
+    install_requires=[
+        'libdyson==0.8.9',
+        'prometheus-client==0.13.1',
+        'python_json_logger==2.0.2'
+    ],
     entry_points={
         'console_scripts': [
             'dyson-exporter=dyson_exporter.exporter:main',
