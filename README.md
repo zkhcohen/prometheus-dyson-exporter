@@ -8,12 +8,15 @@ Github URL: https://github.com/zkhcohen/prometheus-dyson-exporter
 
 Docker Hub URL: https://hub.docker.com/r/zkhcohen/prometheus-dyson-exporter
 
+Grafana Dashboards URL: https://grafana.com/grafana/dashboards/15958
+
 ---
 
 ### Installation Instructions:
 1. Clone [Libdyson](https://github.com/shenxn/libdyson).
 2. Run [get_devices.py](https://github.com/shenxn/libdyson/blob/main/get_devices.py) on the CLI in order to print out credentials for your Dyson device.
 3. Either create a devices.ini file containing the device information (example below), or pass the variables as environment variables via a docker-compose.yml file or on the CLI.
+4. Install the [Grafana dashboard](https://grafana.com/grafana/dashboards/15958).
 
 ---
 ## Example docker-compose.yml file (using devices.ini config file):
@@ -64,3 +67,7 @@ services:
       DYSON_IP: "10.0.10.2"
     restart: always
 ```
+---
+## Example Grafana Dashboard
+
+![screenshot of grafana dashboard](grafana.png)
