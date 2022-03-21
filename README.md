@@ -1,4 +1,4 @@
-# Promethus Exporter for Dyson Fans
+# Prometheus Exporter for Dyson Fans
 
 Inspired by [Prometheus PVE Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter) and [Dyson Graph](https://github.com/williampiv/dyson-graph), leveraging [Libdyson](https://github.com/shenxn/libdyson) for the API.
 
