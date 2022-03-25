@@ -7,6 +7,6 @@
 
 ## 1.0.1 (02-25-2022):
 
- - Updated Grafana dashboard.
+ - Updated Grafana dashboard and added to source.
  - Updated .dockerignore exclusions.
  - Added CHANGELOG
