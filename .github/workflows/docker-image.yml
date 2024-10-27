@@ -20,7 +20,7 @@ jobs:
      DOCKER_USERNAME: 'zkhcohen'
      IMAGE_NAME: 'prometheus-docker-exporter'
      NAMESPACE: 'zkhcohen'
-     REGISTRY: 'registry.hub.docker.com'
+     REGISTRY: 'docker.io'
    steps:
     - name: Check Out prometheus-dyson-exporter Repo 
       uses: actions/checkout@v4.2.2
