@@ -2,8 +2,8 @@ name: Publish Docker image
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - 'main'
   release:
     types: [published]
 
@@ -16,9 +16,6 @@ jobs:
      contents: read
      attestations: write
      id-token: write
-   env:
-     REGISTRY: 'zkhcohen'
-     IMAGE_NAME: 'prometheus-docker-exporter'
    steps:
     - name: Check Out prometheus-dyson-exporter Repo 
       uses: actions/checkout@v4.2.2
@@ -33,7 +30,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5.5.1
       with:
-        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
+        images: 'zkhcohen/prometheus-docker-exporter'
 
     - name: Build and push Docker image
       id: push
