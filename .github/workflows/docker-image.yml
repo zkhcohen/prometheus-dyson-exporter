@@ -18,7 +18,7 @@ jobs:
      id-token: write
    env:
      DOCKER_USERNAME: 'zkhcohen'
-     IMAGE_NAME: 'prometheus-docker-exporter'
+     IMAGE_NAME: 'prometheus-dyson-exporter'
      NAMESPACE: 'zkhcohen'
      REGISTRY: 'docker.io'
    steps:
