@@ -9,7 +9,7 @@ setup(
     version='1.0.0',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    description='Prometheus exporter for Dyson Fan Products leveraging Libdyson (https://github.com/shenxn/libdyson)',
+    description='Prometheus exporter for Dyson Fan Products leveraging Libdyson-neon (https://github.com/libdyson-wg/libdyson-neon)',
     author='Zachary Cohen',
     author_email='zacharykhcohen@gmail.com',
     url='https://github.com/zkhcohen/prometheus-dyson-exporter',
@@ -18,7 +18,7 @@ setup(
     classifiers=[],
     python_requires='>=3',
     install_requires=[
-        'libdyson==0.8.9',
+        'libdyson-neon==1.4.1',
         'prometheus-client==0.13.1',
         'python_json_logger==2.0.2'
     ],

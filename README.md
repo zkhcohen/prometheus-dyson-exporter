@@ -1,6 +1,6 @@
 # Prometheus Exporter for Dyson Fans
 
-Inspired by [Prometheus PVE Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter) and [Dyson Graph](https://github.com/williampiv/dyson-graph), leveraging [Libdyson](https://github.com/shenxn/libdyson) for the API.
+Inspired by [Prometheus PVE Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter) and [Dyson Graph](https://github.com/williampiv/dyson-graph), leveraging [Libdyson-neon](https://github.com/libdyson-wg/libdyson-neon) for the API.
 
 ---
 
@@ -13,8 +13,8 @@ Grafana Dashboards URL: https://grafana.com/grafana/dashboards/15958
 ---
 
 ### Installation Instructions:
-1. Clone [Libdyson](https://github.com/shenxn/libdyson).
-2. Run [get_devices.py](https://github.com/shenxn/libdyson/blob/main/get_devices.py) on the CLI in order to print out credentials for your Dyson device.
+1. Clone [Libdyson-neon](https://github.com/libdyson-wg/libdyson-neon).
+2. Run [get_devices.py](https://github.com/libdyson-wg/libdyson-neon/blob/main/get_devices.py) on the CLI in order to print out credentials for your Dyson device.
 3. Either create a devices.ini file containing the device information (example below), or pass the variables as environment variables via a docker-compose.yml file or on the CLI.
 4. Install the [Grafana dashboard](https://grafana.com/grafana/dashboards/15958).
 
